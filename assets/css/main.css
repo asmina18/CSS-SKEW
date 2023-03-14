@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #dddddd;
+    padding: 2rem;
+}
+article{
+    margin: 2rem;
+}
+h1, h2, h3{
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-bottom: 1rem;
+}
+p, label{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    margin-bottom: 2rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+figure{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+    background-color: #dddddd;
+}
+img{
+    margin-top: 2rem;
+    align-items: center;
+}
